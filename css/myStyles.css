@@ -1,0 +1,25 @@
+:root {
+    /*--primary-color: aquamarine;  
+    --secondary-color: darkslateblue;*/
+    --primary-color: white;  
+    --secondary-color: black;    
+}
+
+.dark_mode {
+    /*--primary-color: darkslateblue;  
+    --secondary-color: aquamarine;*/
+    --primary-color: #21272d;  
+    --secondary-color: white;    
+}
+
+html,
+body {
+  height: 100%;
+  background-color: var(--primary-color);  
+  color: var(--secondary-color);
+}
+
+button {
+    background-color: var(--secondary-color) !important;
+    color: var(--primary-color) !important; 
+}
